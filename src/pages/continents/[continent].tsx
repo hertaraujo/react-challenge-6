@@ -152,7 +152,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const res = await fetch(
-    `http://localhost:3001/continents/${context.params.continent}`
+    `http://localhost:3001/continents/${context?.params?.continent}`
   );
   const continent = await res.json();
 

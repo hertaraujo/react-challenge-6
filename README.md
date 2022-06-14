@@ -3,7 +3,7 @@
 ### Technologies
 - Nextjs
 - ChakraUI
-- Json Server
+- [Json Server](https://github.com/typicode/json-server)
 
 ### Run it locally
     $ yarn
